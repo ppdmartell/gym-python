@@ -25,3 +25,16 @@ print(number1)
 print(type(number))
 print(type(number1))
 
+# input
+number = int(input("Enter an int: "))
+print(number)
+print(type(number))
+
+number1 = float(input("Enter a float: "))
+print(number1)
+print(type(number1))
+
+text = input("Enter a string: ")
+print(text)
+print(type(text))
+
