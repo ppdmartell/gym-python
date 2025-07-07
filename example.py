@@ -7,4 +7,13 @@ print(var1)
 
 
 # String slice
-print("tomato"[0:4])
+var = "tomato"
+print(var[:4])
+print(var[3:4])
+print(var[:])
+print(var[3:])
+
+
+# using type()
+print(type(var))
+
