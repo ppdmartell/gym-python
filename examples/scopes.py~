@@ -5,6 +5,7 @@ def do():
     var = "This is a local variable"    # totally different variable
 
 def change_global():
+    print("var now, about to change")
     global var
     var = "Changed value of var with global keyword"
 
