@@ -36,4 +36,5 @@ print(type(number1))
 
 text = input("Enter a string: ")
 print(text)
+print(type(text))
 
