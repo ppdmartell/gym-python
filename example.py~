@@ -7,4 +7,4 @@ print(var1)
 
 
 # String slice
-print("tomato"[0:4])
+print("tomato"[0:3])
