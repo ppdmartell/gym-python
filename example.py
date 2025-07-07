@@ -17,3 +17,11 @@ print(var[3:])
 # using type()
 print(type(var))
 
+# using str()
+number = 3.14
+number1 = str(number)
+print(number)
+print(number1)
+print(type(number))
+print(type(number1))
+
