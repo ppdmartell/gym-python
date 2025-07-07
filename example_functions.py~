@@ -1,0 +1,13 @@
+def do_something(num1=7, num2=8) -> float:
+    return num1 * num2
+
+def do_something_simplified(num1=7, num2=8):
+    return num1 * num2
+
+
+print(do_something())
+print(do_something(1))
+print(do_something(4,9))
+
+
+print(do_something_simplified())
