@@ -1,0 +1,24 @@
+console = {
+    "nintendo": "wii",
+    "microsoft": "xbox",
+    "sony": "playstation"
+}
+
+print(console["nintendo"])
+
+# two dictionaries can be equal even if the order of creation for their elements is not the same.
+first = {1: 3, 5: 10}
+second = {5: 10, 1: 3}
+
+print(first == second) # True
+
+
+# two lists are different even if they have the same elements but different order
+l1 = [1, 2, 3, 4, 5]
+l2 = [5, 4, 3, 2, 1]
+
+print(l1 == l2)
+
+# searching for a key in a dictionary
+print(1 in second)
+print("sony" not in console)

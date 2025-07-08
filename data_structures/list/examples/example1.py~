@@ -25,6 +25,6 @@ print(l)
 
 
 planets = ["earth", "venus", "mars", "jupyter"]
-planets.remove("venus")
+planets.remove("venus")     # removes venus from the list
 print(planets)
 
