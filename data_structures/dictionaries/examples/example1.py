@@ -22,3 +22,15 @@ print(l1 == l2)
 # searching for a key in a dictionary
 print(1 in second)
 print("sony" not in console)
+
+# get all the keys and values from a dictionary in a list format
+print(first.keys())
+print(second.values())
+
+# get the keys and the values at the same time with items() method (list of tuples? [(1, 3), (5, 10)])
+print(first.items())
+
+
+# check if a value is in a dictionary
+print("xbox" in console.values())
+
