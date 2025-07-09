@@ -33,3 +33,9 @@ print(first.items())
 
 # check if a value is in a dictionary
 print("xbox" in console.values())
+
+a = 123
+
+d = {"a": "1", "f": 3, a: "Peter", "a": 98}
+print(d)
+
